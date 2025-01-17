@@ -1,48 +1,59 @@
-# 🌟 Phuong's Portfolio
+# 🌟 Phuong's Portfolio and CV
 
-Welcome to my portfolio! Here you'll find information about my projects, skills, and professional journey. Feel free to explore and connect with me. 🚀
-
-## 🛠 Skills
-
-- **Programming Languages**: Python, SQL
-- **Data Analysis Tools**: Power BI, Tableau, Excel
-- **Machine Learning**: scikit-learn, TensorFlow
-- **Other Tools**: Git, GitHub, Jupyter Notebook
+Welcome to my professional portfolio and CV! Below, you'll find a summary of my skills, experience, and key projects that demonstrate my expertise in data analysis, machine learning, and AI-powered solutions.
 
 ---
 
-## 📂 Featured Projects
+## 🛠 Skills
 
-### 1. [Project Name](Link to Project Repository or Demo)
-**Description**: A brief summary of the project. Highlight what the project does and its purpose.  
-**Key Technologies**: Python, Power BI, SQL  
-**Highlights**:
-- Built predictive models to analyze customer behavior.
-- Visualized data insights using interactive dashboards.
+- **Programming Languages**: Python, SQL, R  
+- **Data Analysis Tools**: Power BI, Tableau, Excel  
+- **Machine Learning & AI**: scikit-learn, TensorFlow, Natural Language Processing (NLP)  
+- **Other Tools**: Git, Jupyter Notebook, APIs  
 
-### 2. [Project Name](Link to Project Repository or Demo)
-**Description**: Description of the project and its impact.  
-**Key Technologies**: React, Node.js  
-**Highlights**:
-- Developed a dynamic and responsive web application.
-- Integrated APIs to fetch real-time data.
+---
 
-### 3. [Project Name](Link to Project Repository or Demo)
-**Description**: Description of the project and its purpose.  
-**Key Technologies**: Python, scikit-learn, Pandas  
-**Highlights**:
-- Applied machine learning algorithms to solve complex business problems.
-- Improved model accuracy by optimizing hyperparameters.
+## 📂 Key Projects
+
+### ✈️ British Airways Data Science Job Simulation  
+**October 2024**  
+- Scraped and analyzed extensive customer review data to uncover insights into customer satisfaction and preferences.  
+- Built a predictive model using machine learning techniques to identify factors influencing buying behavior.  
+- Demonstrated the critical role of data-driven decision-making in enhancing customer engagement and optimizing strategies.
+
+---
+
+### 📦 Olist E-commerce Customer Experience Optimization Project  
+**October 2024**  
+- Utilized SQL and Python to process and analyze large-scale delivery data, identifying patterns to improve delivery efficiency.  
+- Developed a predictive model for accurate delivery time estimation using machine learning algorithms, enhancing customer satisfaction.  
+- Created interactive dashboards and visual reports in Power BI to present actionable insights to stakeholders.
+
+---
+
+### 🤖 BCG GenAI Job Simulation  
+**November 2024**  
+- Designed and developed an AI-powered financial chatbot by integrating complex financial data from 10-K and 10-Q reports.  
+- Employed Python libraries such as pandas for data extraction, manipulation, and analysis.  
+- Showcased rule-based logic and advanced problem-solving skills to provide user-friendly financial insights.  
+
+---
+
+## 🏆 Achievements & Certifications
+
+- Professional Certificate in Data Analysis - CoderSchool  
+- Machine Learning Specialization - Coursera  
+- Advanced Python Programming - Udemy  
 
 ---
 
 ## 📫 Contact Me
 
-- **Email**: yourname@example.com  
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)  
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)  
-- **Portfolio Website**: [Your Website](https://yourwebsite.com)  
+- **Email**: bphuong27@gmail.com 
+- **LinkedIn**: [[linkedin.com/in/your-profile](www.linkedin.com/in/phuong-hoang-5b767a141)]  
+- **GitHub**: [github.com/your-username](https://github.com/jessy-data)  
+- **Portfolio Website**: [your-portfolio.com](https://your-portfolio.com)  
 
 ---
 
-Thank you for visiting my portfolio! Feel free to reach out if you'd like to collaborate or learn more about my work. 😊
+Thank you for visiting my CV and portfolio! Feel free to reach out for collaboration or further discussions.
