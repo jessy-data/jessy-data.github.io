@@ -50,8 +50,8 @@ Welcome to my professional portfolio and CV! Below, you'll find a summary of my 
 ## 📫 Contact Me
 
 - **Email**: bphuong27@gmail.com 
-- **LinkedIn**: [[linkedin.com/in/your-profile](www.linkedin.com/in/phuong-hoang-5b767a141)]  
-- **GitHub**: [github.com/your-username](https://github.com/jessy-data)  
+- **LinkedIn**: www.linkedin.com/in/phuong-hoang-5b767a141
+- **GitHub**: https://github.com/jessy-data
 - **Portfolio Website**: [your-portfolio.com](https://your-portfolio.com)  
 
 ---
