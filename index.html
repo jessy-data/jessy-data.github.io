@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+
+  .bg-pink {
+    background-color: pink;
+  }
+  .text-blue {
+    color: rgb(0, 149, 255) !important;
+  }
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 25px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #494273; /* Same as navbar color for seamless look */
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/linhvuu.png" alt="About Me">
+    <p>I am Linh Vuu from Vietnam, working in the Data Science field.</p>
+    <p>My enthusiasm can be seen when extracting insights from data, leading a team and bringing benefits to businesses.</p>
+    <div class="row">
+      <!-- First Column -->
+      <div class="col-md-6 text-left">
+        <h3 class="text-center">Work</h3>
+        <p>1️⃣ 2015-2019 (BI): Starting with GeoComply company as a Business Data Analyst in the Business Intelligence (BI) Team, my tasks were to query data, execute reports from MySQL and Elastic Search databases using Python in Jupyter Notebook and visualise data using Kibana. My hard work paid off with a promotion to be a leader to supervise and mentor analysts of the team.</p>
+        <p>2️⃣ 2019-2024 (DA & AI/ML): I built up a brand-new Data Analytics Team (DA) in GeoComply, from 0 to a team of 12 people, ranging from Interns to Seniors. After training, they analysed data, detected fraud, and proposed solutions to top managers by giving weekly presentations. With the trust gained from the CEO, I am allowed to grow the team taking more responsibilities to cover more products every year. As a result, I became a manager of the Fraud and Compliance Intelligence Team, doing analytics and machine learning (AI/ML) to detect fraud and location spoofing.</p>
+      </div>
+      <div class="col-md-6 text-left">
+        <h3 class="text-center">Life</h3>
+        <p>📖 I have finished a Master's thesis in Data Science at Liverpool John Moores University (UK), using my research and analytics skills, such as Geolocation Information Systems, Data Structures, Programming Languages, Databases, Machine Learning, Exploratory Data Analysis, Statistics, Business Analysis and Design, and Project Management to examine existing papers and datasets and provide novel results.</p>
+        <p>🤝 With a passion for sharing my experience, I participated as a mentor at Coder School and as a volunteer at Foreign Trade University, guiding learners and students on how to work in the Data Science field.</p>
+        <p>🎶 In my free time, I go swimming, read crime novels, play the harmonica and take care of my poodles.</p>
+      </div>
+    </div>
+</section>
+
+<!-- Sharing Sessions -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">My Free Courses</h2>
+    <div class="row">
+      <!-- Course 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/workshops/ecommerce.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Tableau Workshop: Catching Insights, Reaching the Right Customers with Data Analysis</h5>
+            <p class="card-text">Free training sessions for CoderSchool learners focusing on Data Analytics and Interpreting Graphs using Tableau.</p>
+            <ul>
+              <li>Day 1: 📈 Basic Visualisation with Tableau</li>
+              <li>Day 2: 🔍 Delve into the full dataset and uncover valuable insights</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1lUJUy9OXDJFXjyK9X_VOrIYP8C_qEVoy/view" class="btn btn-primary">Record 1</a>
+            <a href="https://drive.google.com/file/d/15ryVbhuVbMpf_XuX4TsQmp6yqIYpZxhP/view" class="btn btn-primary">Record 2</a>
+            <a href="https://public.tableau.com/app/profile/linh.vuu3864/viz/Ecommerce_17121224306650/Story?publish=yes" class="btn btn-secondary">Outcome</a>
+          </div>
+        </div>
+      </div>
+      <!-- Course 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/workshops/titanic.jpeg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Tableau Workshop: 1 day experience being a data analyst with Tableau</h5>
+            <p class="card-text">Free training sessions for CoderSchool learners on Data Visualization using Tableau.</p>
+            <ul>
+              <li>Day 1: 📈 Dive into the fundamentals of Data Visualization</li>
+              <li>Day 2: 📊 Explore practical applications and advanced techniques in Data Visualization</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1hz7IrP_mYhU7fmgqF3PsjILelRdPaDTn/view" class="btn btn-primary">Record 1</a>
+            <a href="https://drive.google.com/file/d/1W8XzL2Xa3kdqqAH9P1MSAMmK09na8Mrg/view" class="btn btn-primary">Record 2</a>
+            <a href="https://public.tableau.com/app/profile/linh.vuu3864/viz/Titanic_17103481269550/Overview" class="btn btn-secondary">Outcome</a>
+          </div>
+        </div>
+      </div>
+      <!-- Course 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/workshops/ai.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">AI Workshop: All Aboard the GPTanic</h5>
+            <p class="card-text">A free course for CoderSchool learners to learn how to apply OpenAI API to build simple applications. Please contact me if you need access to the record. Thank you.</p>
+            <a href="https://drive.google.com/file/d/1GhiuqtUHi5vTnTeTUyc7SGFGdx5JscyN/view" class="btn btn-primary">Record</a>
+            <a href="https://huggingface.co/LinhVuu" class="btn btn-primary">Sample apps</a>
+            <a href="https://colab.research.google.com/drive/1kMN2zXmufrXdqSaXkSLyM5EYHIjqiBr2?usp=sharing" class="btn btn-secondary">Code</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+
+        <!-- Project 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+              <img src="images/projects/puppies.jpeg" class="card-img-top" alt="Scientific Report">
+              <div class="card-body">
+                  <h5 class="card-title">Scientific Report: Data Analysis on Dogs’ Behaviours (Matlab)</h5>
+                  <p class="card-text">
+                      It can be seen in daily life that similar to human beings, canines also have emotions, but it is not clear whether each of them shows their emotions differently and whether they are jealous or not. This project explores how different dogs of different genders would behave when they are ignored by their owners based on the data taken from the studies of Prato-Previde et al. (2018). The results revealed that female dogs were more connected with their owners, while male dogs focused more on strangers and the environment.
+                  </p>
+                  <a href="https://www.linkedin.com/pulse/dogs-behaviours-when-owners-strangers-interact-other-objects-linh-vưu/" class="btn btn-primary">Article Post</a>
+                  <a href="https://github.com/LinhVuu/matlab/tree/master/dog_jealousy_analysis" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Projects 3 and 4 in the same column -->
+      <div class="col-md-6 mb-4">
+          <!-- Project 3 -->
+          <div class="card mb-4">
+              <!-- <img src="images/projects/kaggle.jpeg" class="card-img-top" alt="Kaggle Projects"> -->
+              <div class="card-body">
+                  <h5 class="card-title">Kaggle Data Science (Python) Projects:</h5>
+                  <ul>
+                      <li>Exploratory Data Analysis: World Cup, Terrorism</li>
+                      <li>ML Models to predict: Credit Card, Telecom Churn, Lead Scoring</li>
+                  </ul>
+                  <a href="https://drive.google.com/drive/folders/1IpqqDKTVT2t3te__hMPxx8vUCL6ASKcM?usp=sharing" class="btn btn-primary">Slides</a>
+                  <a href="https://www.kaggle.com/linhvuu/code?userId=7117508&sortBy=dateRun&tab=profile&language=Python&privacy=public" class="btn btn-secondary">Code</a>
+              </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="card">
+              <!-- <img src="images/projects/geolocation_tech_analysis.png" class="card-img-top" alt="Geolocation Technology Analysis Report"> -->
+              <div class="card-body">
+                  <h5 class="card-title">Geolocation Technology Analysis (GIS)</h5>
+                  <p class="card-text">
+                      Location tracking methods such as IP address, Wi-Fi signals, GPS, and GSM are essential for various software and businesses. A report utilising ArcGIS and visualisation tools assesses the accuracy, reliability, and coverage of these methods, finding GPS to be the most accurate and IP address the least. However, the choice of method depends on the specific tracking needs, highlighting the importance of using a "fit-for-purpose" approach. Please contact me if you need access to the report. Thank you.
+                  </p>
+                  <a href="https://github.com/LinhVuu/self-study/blob/main/Geolocation%20Technology%20Analysis%20-%20Linh%20Vuu.pdf" class="btn btn-primary">Report</a>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="col-md-12 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/projects/baam.png" class="img-fluid mb-4" alt="Banking-Advanced-Authentication-System">
+            </div>
+            <div class="col-md-4">
+              <img src="images/projects/prize.jpeg" class="img-fluid mb-4" alt="award-1st-runner-up">
+            </div>
+            <div class="col-md-4">
+              <img src="images/projects/photo_award.jpeg" class="img-fluid mb-4" alt="photo-award">
+            </div>
+          </div>
+
+          <h5 class="card-title">Banking Advanced Authentication System (Python + SQL)</h5>
+          <p class="card-text">Account takeover happens quite regularly these days. Safruti (2022) mentioned on Forbes that billions of credentials from social media networks, e-commerce sites and financial applications were stolen and sold on the internet. In banking, the threat is even more severe as the loss would be a significant amount of money. To prevent fraud in banking, especially in cases where scammers log into a bank account and spend money illegally, the Account Takeover Detection System is proposed to automatically identify the suspicious login and block the account immediately, so that further fraud activities would not occur.</p>
+          <!-- Add your project links/buttons here -->
+          <a href="https://huggingface.co/spaces/LinhVuu/Banking-Advanced-Authentication-System" class="btn btn-primary mt-3">Link to sample application</a>
+          <a href="https://huggingface.co/spaces/LinhVuu/Banking-Advanced-Authentication-System/blob/main/Proposal.pdf" class="btn btn-primary mt-3">Proposal</a>
+          <a href="https://huggingface.co/spaces/LinhVuu/Banking-Advanced-Authentication-System/tree/main" class="btn btn-secondary mt-3">Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">Presentation</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/3.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/Team-Management-Skills.png" class="card-img-top" alt="Team Management">
+          <div class="card-body">
+            <h5 class="card-title">Team Management</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-blue bg-pink">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row align-items-center">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="row">
+          <!-- Email -->
+          <div class="col-md-2 mb-4">
+            <a href="mailto:togepi.linh.vuu@gmail.com" target="_blank">
+              <img src="icons/email.png" alt="email" class="social-icon">
+            </a>
+          </div>
+          <!-- Phone -->
+          <div class="col-md-2 mb-4">
+            <a href="tel:+84767181233">
+              <img src="icons/phone.png" alt="phone" class="social-icon">
+            </a>
+          </div>
+          <!-- LinkedIn -->
+          <div class="col-md-2 mb-4">
+            <a href="https://www.linkedin.com/in/linhvuu/" target="_blank">
+              <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+          </div>
+          <!-- GitHub -->
+          <!-- <div class="col-md-2 mb-4">
+            <a href="https://github.com/LinhVuu" target="_blank">
+              <img src="icons/github.png" alt="GitHub" class="social-icon">
+            </a>
+          </div> -->
+          <!-- Medium -->
+          <div class="col-md-2 mb-4">
+            <a href="https://medium.com/@togepilinhvuu" target="_blank">
+              <img src="icons/medium.png" alt="Medium" class="social-icon">
+            </a>
+          </div>
+          <!-- Facebook -->
+          <div class="col-md-2 mb-4">
+            <a href="https://www.facebook.com/Togepi.Linh.Vuu/" target="_blank">
+              <img src="icons/fb.png" alt="Facebook" class="social-icon">
+            </a>
+          </div>
+          <!-- YouTube -->
+          <div class="col-md-2 mb-4">
+            <a href="https://www.youtube.com/@togepilinhvuu906/videos" target="_blank">
+              <img src="icons/youtube.png" alt="YouTube" class="social-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-pink fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-blue" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-blue" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-blue" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-blue" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-blue" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-blue" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
